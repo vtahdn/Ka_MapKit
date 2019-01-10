@@ -14,6 +14,9 @@
 		2940157A21E7472D00745189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2940157821E7472D00745189 /* LaunchScreen.storyboard */; };
 		2940158521E7472D00745189 /* Ka_MapKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2940158421E7472D00745189 /* Ka_MapKitTests.swift */; };
 		2940159021E7472D00745189 /* Ka_MapKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2940158F21E7472D00745189 /* Ka_MapKitUITests.swift */; };
+		2940159E21E7474400745189 /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2940159D21E7474400745189 /* 18.jpg */; };
+		294015A121E7477F00745189 /* PathFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2940159F21E7477F00745189 /* PathFind.swift */; };
+		294015A221E7477F00745189 /* PathFind.xib in Resources */ = {isa = PBXBuildFile; fileRef = 294015A021E7477F00745189 /* PathFind.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		2940158B21E7472D00745189 /* Ka_MapKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ka_MapKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2940158F21E7472D00745189 /* Ka_MapKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ka_MapKitUITests.swift; sourceTree = "<group>"; };
 		2940159121E7472D00745189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2940159D21E7474400745189 /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
+		2940159F21E7477F00745189 /* PathFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFind.swift; sourceTree = "<group>"; };
+		294015A021E7477F00745189 /* PathFind.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PathFind.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		2940156E21E7472D00745189 /* Ka_MapKit */ = {
 			isa = PBXGroup;
 			children = (
+				2940159D21E7474400745189 /* 18.jpg */,
 				2940156F21E7472D00745189 /* AppDelegate.swift */,
 				2940157121E7472D00745189 /* ViewController.swift */,
 				2940157321E7472D00745189 /* Main.storyboard */,
 				2940157621E7472D00745189 /* Assets.xcassets */,
 				2940157821E7472D00745189 /* LaunchScreen.storyboard */,
 				2940157B21E7472D00745189 /* Info.plist */,
+				2940159F21E7477F00745189 /* PathFind.swift */,
+				294015A021E7477F00745189 /* PathFind.xib */,
 			);
 			path = Ka_MapKit;
 			sourceTree = "<group>";
@@ -231,7 +240,9 @@
 			files = (
 				2940157A21E7472D00745189 /* LaunchScreen.storyboard in Resources */,
 				2940157721E7472D00745189 /* Assets.xcassets in Resources */,
+				2940159E21E7474400745189 /* 18.jpg in Resources */,
 				2940157521E7472D00745189 /* Main.storyboard in Resources */,
+				294015A221E7477F00745189 /* PathFind.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2940157221E7472D00745189 /* ViewController.swift in Sources */,
+				294015A121E7477F00745189 /* PathFind.swift in Sources */,
 				2940157021E7472D00745189 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
